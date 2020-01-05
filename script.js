@@ -6,11 +6,10 @@ const textElement = document.getElementById('infoText')
 const contCounter = document.getElementById('counter')
 var i = 0;
 var completeSentences = 0;
+var typingSpeed = 0;
 
 contCounter.innerHTML = completeSentences;
 document.getElementById('completed').innerHTML = 'Completed Sentneces: ';
-
-
 
 quoteInputElement.addEventListener("keydown", removeText);
 function removeText() {
