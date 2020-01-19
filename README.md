@@ -2,5 +2,5 @@
 
 Increse your Typing speed by practicing typing
 
-#### features to add:
+#### Features to add:
 typing speed - words per minute
