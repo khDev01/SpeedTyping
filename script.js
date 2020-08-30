@@ -8,8 +8,10 @@ var i = 0;
 var completeSentences = 0;
 var typingSpeed = 0;
 
+
 contCounter.innerHTML = completeSentences;
 document.getElementById('completed').innerHTML = 'Completed Sentneces: ';
+
 
 quoteInputElement.addEventListener("keydown", removeText);
 function removeText() {
@@ -71,9 +73,7 @@ let startTime
 function startTimer() {
   timerElement.innerText = 0
   startTime = new Date()
-  setInterval(() => {
-    timer.innerText = getTimerTime()
-  }, 1000)
+  setInterval(() => { timer.innerText = getTimerTime()}, 1000)
 }
 
 function getTimerTime() {
